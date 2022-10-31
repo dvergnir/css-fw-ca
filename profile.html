@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A place for pets to socialize!" />
+    <title>Home | Pet Place</title>
+    <script
+      src="https://kit.fontawesome.com/c965e83369.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://use.typekit.net/hqz6mul.css" />
+    <link rel="stylesheet" href="dist/css/styles.css" />
+  </head>
+  <body class="bg-secondary d-flex flex-column min-vh-100">
+    <header>
+      <a
+        href="index.html"
+        class="display-1 text-center text-decoration-none d-block"
+        >Pet Place</a
+      >
+      <div class="nav-container w-50 mx-auto">
+        <nav class="navbar">
+          <a href="index.html"><i class="fa fa-home fa-2x"></i></a>
+          <a href="profile.html"
+            ><i
+              class="fa fa-user fa-xl fa-2x border border-primary rounded p-1"
+            ></i
+          ></a>
+          <a href="login.html"><i class="fa fa-sign-in-alt fa-xl fa-2x"></i></a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1 class="text-center mt-4">Mr.Cat</h1>
+            <img
+              src="/images/mrcat.png"
+              class="profile-image mx-auto d-block"
+            />
+            <a class="text-center h6 d-block">Edit profile</a>
+          </div>
+        </div>
+      </div>
+      <form action="#">
+        <h2 class="text-center mt-4">Post something</h2>
+        <textarea class="form-control w-75 mx-auto" rows="5"></textarea>
+        <button
+          type="submit"
+          class="btn btn-success mx-auto d-block mt-1 px-6 text-white"
+        >
+          Publish
+        </button>
+      </form>
+      <div class="container">
+        <div class="row">
+          <h2 class="h5 mt-4">Friends</h2>
+          <div class="col-4">
+            <div class="card">
+              <div class="card-body mx-auto text-center">
+                <h6 class="card-subtitle mb-2">Mrs. Pugsley</h6>
+                <img
+                  src="/images/mrspugsley.png"
+                  class="user-image"
+                  alt="cat in profile"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card">
+              <div class="card-body mx-auto text-center">
+                <h6 class="card-subtitle mb-2">Bird McFly</h6>
+                <img
+                  src="/images/mcfly.png"
+                  class="user-image"
+                  alt="cat in profile"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h3 class="h5 mt-4 text-center">Posts</h3>
+            <div class="card w-75 mx-auto">
+              <div class="card-body justify-content-center">
+                <h5 class="card-subtitle mb-2 text-muted">Mr.Cat</h5>
+                <img
+                  src="/images/mrcat.png"
+                  class="user-image"
+                  alt="cat in profile"
+                />
+                <p class="card-text">
+                  I caught a huge mouse today. I think it was a mouse. The weird
+                  thing is that it was connected to a string and a stick.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="mt-auto mb-2 text-center text-primary">©Copyright</footer>
+  </body>
+</html>
