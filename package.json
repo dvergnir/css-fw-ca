@@ -4,7 +4,7 @@
   "description": "CSS Frameworks Course Assignment",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "sass src/scss:dist/css"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
   "homepage": "https://github.com/dvergnir/css-fw-ca#readme",
   "dependencies": {
     "bootstrap": "^5.2.2"
+  },
+  "devDependencies": {
+    "sass": "^1.55.0"
   }
 }
