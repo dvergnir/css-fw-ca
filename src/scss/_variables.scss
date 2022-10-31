@@ -9,3 +9,36 @@ $yellow: #ffc107;
 $green: #a9c8b9;
 $teal: #407464;
 $cyan: #0dcaf0;
+
+// scss-docs-start theme-color-variables
+$primary: #9a6f6f;
+$secondary: #fefcdc;
+$success: $green;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
+// scss-docs-end theme-color-variables
+
+// scss-docs-start headings-variables
+$headings-font-family: pedestria-mvb, sans-serif;
+$headings-font-style: null;
+$headings-font-weight: 700;
+$headings-line-height: 1.2;
+$headings-color: #9a6f6f;
+// scss-docs-end headings-variables
+
+// scss-docs-start display-headings
+$display-font-sizes: (
+  1: 7rem,
+  2: 4.5rem,
+  3: 4rem,
+  4: 3.5rem,
+  5: 3rem,
+  6: 2.5rem,
+);
+
+$display-font-family: pedestria-mvb, sans-serif;
+$display-font-style: null;
+$display-font-weight: 700;
+$display-line-height: $headings-line-height;
+// scss-docs-end display-headings
