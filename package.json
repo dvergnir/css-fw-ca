@@ -1,6 +1,6 @@
 {
   "name": "css-fw-ca",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "CSS Frameworks Course Assignment",
   "main": "index.js",
   "scripts": {
@@ -10,11 +10,18 @@
     "type": "git",
     "url": "git+https://github.com/dvergnir/css-fw-ca.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "css",
+    "Frameworks",
+    "sass"
+  ],
+  "author": "Benjamin Løndal<benjamin.londal@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dvergnir/css-fw-ca/issues"
   },
-  "homepage": "https://github.com/dvergnir/css-fw-ca#readme"
+  "homepage": "https://github.com/dvergnir/css-fw-ca#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
 }
