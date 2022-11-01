@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="A place for pets to socialize!" />
+    <meta
+      name="description"
+      content="My pet profile, here you can write on my wall"
+    />
     <title>Home | Pet Place</title>
     <script
       src="https://kit.fontawesome.com/c965e83369.js"
@@ -20,86 +23,106 @@
         class="display-1 text-center text-decoration-none d-block"
         >Pet Place</a
       >
-      <div class="nav-container w-50 mx-auto">
-        <nav class="navbar">
-          <a href="index.html"><i class="fa fa-home fa-2x"></i></a>
-          <a href="profile.html"
-            ><i
-              class="fa fa-user fa-xl fa-2x border border-primary rounded p-1"
-            ></i
-          ></a>
-          <a href="login.html"><i class="fa fa-sign-in-alt fa-xl fa-2x"></i></a>
-        </nav>
+      <div class="w-50 mx-auto container">
+        <div class="row">
+          <div class="col-12 col-md-6 mx-auto">
+            <nav class="navbar">
+              <a href="index.html"><i class="fa fa-home fa-2x"></i></a>
+              <a href="profile.html"
+                ><i
+                  class="fa fa-user fa-xl fa-2x border border-primary rounded p-1"
+                ></i
+              ></a>
+              <a href="login.html"
+                ><i class="fa fa-sign-in-alt fa-xl fa-2x"></i
+              ></a>
+            </nav>
+          </div>
+        </div>
       </div>
     </header>
     <main>
       <div class="container">
         <div class="row">
-          <div class="col">
+          <div class="mx-auto col-12 col-md-10">
             <h1 class="text-center mt-4">Mr.Cat</h1>
             <img
               src="/images/mrcat.png"
               class="profile-image mx-auto d-block"
             />
             <a class="text-center h6 d-block">Edit profile</a>
-          </div>
-        </div>
-      </div>
-      <form action="#">
-        <h2 class="text-center mt-4">Post something</h2>
-        <textarea class="form-control w-75 mx-auto" rows="5"></textarea>
-        <button
-          type="submit"
-          class="btn btn-success mx-auto d-block mt-1 px-6 text-white"
-        >
-          Publish
-        </button>
-      </form>
-      <div class="container">
-        <div class="row">
-          <h2 class="h5 mt-4">Friends</h2>
-          <div class="col-4">
-            <div class="card">
-              <div class="card-body mx-auto text-center">
-                <h6 class="card-subtitle mb-2">Mrs. Pugsley</h6>
-                <img
-                  src="/images/mrspugsley.png"
-                  class="user-image"
-                  alt="cat in profile"
-                />
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12 col-xl-12 mx-auto">
+                  <form action="#">
+                    <h2 class="text-center mt-4">Post something</h2>
+                    <textarea
+                      class="form-control w-75 mx-auto"
+                      rows="5"
+                    ></textarea>
+                    <button
+                      type="submit"
+                      class="btn btn-success mx-auto d-block mt-3 px-6 text-white"
+                    >
+                      Publish
+                    </button>
+                  </form>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-4">
-            <div class="card">
-              <div class="card-body mx-auto text-center">
-                <h6 class="card-subtitle mb-2">Bird McFly</h6>
-                <img
-                  src="/images/mcfly.png"
-                  class="user-image"
-                  alt="cat in profile"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <h3 class="h5 mt-4 text-center">Posts</h3>
-            <div class="card w-75 mx-auto">
-              <div class="card-body justify-content-center">
-                <h5 class="card-subtitle mb-2 text-muted">Mr.Cat</h5>
-                <img
-                  src="/images/mrcat.png"
-                  class="user-image"
-                  alt="cat in profile"
-                />
-                <p class="card-text">
-                  I caught a huge mouse today. I think it was a mouse. The weird
-                  thing is that it was connected to a string and a stick.
-                </p>
+            <div class="container justify-content-center">
+              <div class="row">
+                <div class="col-9 col-md-9 col-lg-9 col-xl-9 mx-auto">
+                  <div class="row justify-content-left text-center">
+                    <h2 class="h5 mt-4">Friends</h2>
+                    <div class="col-6 col-md-3">
+                      <div class="card">
+                        <div class="card-body mx-auto text-center">
+                          <h6 class="card-subtitle mb-2">Mrs. Pugsley</h6>
+                          <img
+                            src="/images/mrspugsley.png"
+                            class="user-image"
+                            alt="cat in profile"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                      <div class="card">
+                        <div class="card-body mx-auto text-center">
+                          <h6 class="card-subtitle mb-2">Bird McFly</h6>
+                          <img
+                            src="/images/mcfly.png"
+                            class="user-image"
+                            alt="cat in profile"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+                      <h3 class="h5 mt-4 text-center">Posts</h3>
+                      <div class="card w-75 mx-auto">
+                        <div class="card-body justify-content-center">
+                          <h5 class="card-subtitle mb-2 text-muted">Mr.Cat</h5>
+                          <img
+                            src="/images/mrcat.png"
+                            class="user-image"
+                            alt="cat in profile"
+                          />
+                          <p class="card-text">
+                            I caught a huge mouse today. I think it was a mouse.
+                            The weird thing is that it was connected to a string
+                            and a stick.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
