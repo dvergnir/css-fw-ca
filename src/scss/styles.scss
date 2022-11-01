@@ -10,6 +10,10 @@
   max-width: 50px;
 }
 
+.card-text {
+  @include font-size(1.5rem);
+}
+
 .profile-image {
   max-width: 100px;
 }

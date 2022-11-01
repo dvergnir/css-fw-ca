@@ -14,7 +14,7 @@
   --bs-orange: #fd7e14;
   --bs-yellow: #ffc107;
   --bs-green: #5db560;
-  --bs-teal: #407464;
+  --bs-teal: #20c997;
   --bs-cyan: #0dcaf0;
   --bs-black: #000;
   --bs-white: #fff;
@@ -11151,6 +11151,19 @@ textarea.form-control-lg {
 .user-image {
   width: 100%;
   max-width: 50px;
+}
+
+.card-text {
+  font-size: calc(1.275rem + 0.3vw);
+}
+@media (min-width: 1200px) {
+  .card-text {
+    font-size: 1.5rem;
+  }
+}
+
+.profile-image {
+  max-width: 100px;
 }
 
 /*# sourceMappingURL=styles.css.map */
