@@ -23,23 +23,46 @@
         class="display-1 text-center text-decoration-none d-block"
         >Pet Place</a
       >
-      <div class="w-50 mx-auto container">
-        <div class="row">
-          <div class="col-12 col-md-6 mx-auto">
-            <nav class="navbar">
-              <a href="index.html"><i class="fa fa-home fa-2x"></i></a>
-              <a href="profile.html"
-                ><i
-                  class="fa fa-user fa-xl fa-2x border border-primary rounded p-1"
-                ></i
-              ></a>
-              <a href="login.html"
-                ><i class="fa fa-sign-in-alt fa-xl fa-2x"></i
-              ></a>
-            </nav>
+      <nav class="navbar navbar-expand-sm">
+        <div class="container-fluid text-center">
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="container d-flex justify-content-center">
+              <div class="row">
+                <div class="col">
+                  <ul class="navbar-nav me-auto">
+                    <li class="nav-item p-4">
+                      <a href="index.html" class="text-decoration-none">Home</a>
+                    </li>
+                    <li class="nav-item p-4">
+                      <a
+                        href="profile.html"
+                        class="bg-primary text-light rounded p-3 text-decoration-none"
+                        >Profile</a
+                      >
+                    </li>
+                    <li class="nav-item p-4">
+                      <a href="login.html" class="text-decoration-none"
+                        >Sign in</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      </nav>
     </header>
     <main>
       <div class="container">
@@ -135,5 +158,6 @@
       </div>
     </main>
     <footer class="mt-auto mb-2 text-center text-primary">©Copyright</footer>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
