@@ -1,0 +1,20 @@
+@import "variables";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../node_modules/bootstrap/scss/functions";
+
+.search {
+  max-width: 250px;
+}
+
+.user-image {
+  width: 100%;
+  max-width: 50px;
+}
+
+.card-text {
+  @include font-size(1.5rem);
+}
+
+.profile-image {
+  max-width: 100px;
+}
